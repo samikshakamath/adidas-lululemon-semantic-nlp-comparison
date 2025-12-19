@@ -3,15 +3,14 @@
  - **Author**: Samiksha Kamath 
 - **Project Date**: 29/4/2025
 
----
 
-## 🧠 NLP-Based Brand Sentiment Analysis – Adidas vs. Lululemon
+## NLP-Based Brand Sentiment Analysis – Adidas vs. Lululemon
 
 This project conducts a comparative analysis of consumer discourse surrounding Adidas and Lululemon by applying advanced natural language processing (NLP) techniques to unstructured Twitter data. Leveraging Latent Dirichlet Allocation (LDA) for unsupervised topic modeling and sentiment-aware text preprocessing, it uncovers latent thematic structures, emotional tone distributions, and brand-specific conversational patterns. The analysis reveals nuanced differences in customer perception, loyalty drivers, and experiential expectations, offering actionable insights for strategic marketing, brand positioning, and customer engagement optimization within the competitive apparel sector.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To transform unstructured tweet data into structured brand intelligence by:
 
@@ -22,7 +21,7 @@ To transform unstructured tweet data into structured brand intelligence by:
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 | Area                  | Tools Used                                              |
 |-----------------------|----------------------------------------------------------|
@@ -34,7 +33,7 @@ To transform unstructured tweet data into structured brand intelligence by:
 
 ---
 
-## 🗂️ Dataset Overview
+## Dataset Overview
 
 Two brand-specific datasets of raw tweets were used:
 
@@ -45,7 +44,7 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 
 ---
 
-## 🔄 Preprocessing Pipeline
+## Preprocessing Pipeline
 
 - Lowercasing & punctuation stripping  
 - Stopword removal using NLTK  
@@ -56,9 +55,9 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 
 ---
 
-## 🧠 Topic Modeling Results
+## Topic Modeling Results
 
-### 🔹 Adidas
+### Adidas
 
 | Topic ID | Dominant Themes                         | Keywords                          |
 |----------|------------------------------------------|-----------------------------------|
@@ -66,7 +65,7 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 | 1        | Footwear Quality & Performance           | shoe, fit, size, comfort          |
 | 2        | Promotions and Product Drops             | drop, collection, release, sale   |
 
-### 🔹 Lululemon
+### Lululemon
 
 | Topic ID | Dominant Themes                         | Keywords                          |
 |----------|------------------------------------------|-----------------------------------|
@@ -76,7 +75,7 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 
 ---
 
-## 📊 Comparative Insight Summary
+## Comparative Insight Summary
 
 - **Tone & Sentiment**:  
   Adidas tweets skew toward **transactional and issue-oriented** language (support, delay), whereas Lululemon tweets tend toward **emotionally positive, lifestyle-aligned** narratives.
@@ -91,7 +90,7 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `README.md` – This documentation  
 - `20703562_K_ASA_CW2_BUSI4370_SPR1 24-25.pdf` – Final report  
@@ -103,12 +102,12 @@ Each entry contains tweet text, timestamp, and metadata fields. All tweets were 
 
 ---
 
-## 📌 Key Deliverables
+## Key Deliverables
 
-- ✔️ Brand-level LDA topic models with coherence validation  
-- ✔️ pyLDAvis interactive visualization exports for stakeholder review  
-- ✔️ Sentiment & tone mapping across thematic dimensions  
-- ✔️ Strategic recommendations for marketing personalization, voice tone refinement, and CX priorities
+- Brand-level LDA topic models with coherence validation  
+- pyLDAvis interactive visualization exports for stakeholder review  
+- Sentiment & tone mapping across thematic dimensions  
+- Strategic recommendations for marketing personalization, voice tone refinement, and CX priorities
 
 ---
 
