@@ -1,6 +1,6 @@
 # A Comparative Analytical Study of Adidas and Lululemon based on Customer Sentiment
 
- - **Author**: Samiksha Kamath 
+ - **Author**: Samiksha Kamath   
 - **Project Date**: 29/4/2025
 
 
